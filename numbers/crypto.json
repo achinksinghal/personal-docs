@@ -14,5 +14,10 @@
 		"key": "LTC",
 		"max": 260,
 		"min": 230
+	}, {
+		"name": "Ripple",
+		"key": "XRP",
+		"max": 3,
+		"min": 2.5
 	}]
 }
