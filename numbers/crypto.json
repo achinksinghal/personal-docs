@@ -3,16 +3,16 @@
 		"name": "Bitcoin Cash",
 		"key": "BCH",
 		"max": 2600,
-		"min": 2300
+		"min": 2400
 	}, {
 		"name": "Bitcoin",
 		"key": "BTC",
 		"max": 17000,
-		"min": 14000
+		"min": 16500
 	}, {
 		"name": "Litecoin",
 		"key": "LTC",
 		"max": 260,
-		"min": 230
+		"min": 250
 	}]
 }
