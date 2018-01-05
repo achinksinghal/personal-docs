@@ -8,7 +8,7 @@
 		"name": "Bitcoin",
 		"key": "BTC",
 		"max": 17000,
-		"min": 13500
+		"min": 14000
 	}, {
 		"name": "Ethereum",
 		"key": "ETH",
