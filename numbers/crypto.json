@@ -17,7 +17,7 @@
 	}, {
 		"name": "Litecoin",
 		"key": "LTC",
-		"max": 280,
+		"max": 300,
 		"min": 230
 	}, {
 		"name": "Ripple",
