@@ -2,7 +2,7 @@
 	"inputs": [{
 		"name": "Bitcoin Cash",
 		"key": "BCH",
-		"max": 2600,
+		"max": 2800,
 		"min": 2300
 	}, {
 		"name": "Bitcoin",
