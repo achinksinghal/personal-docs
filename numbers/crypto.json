@@ -12,7 +12,7 @@
 	}, {
 		"name": "Ethereum",
 		"key": "ETH",
-		"max": 1000,
+		"max": 1050,
 		"min": 930
 	}, {
 		"name": "Litecoin",
