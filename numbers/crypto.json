@@ -24,6 +24,12 @@
 		"max": 300,
 		"min": 250
 	}, {
+		"name": "Dash",
+		"gdax-key": "DASH",
+		"kraken-key": "DASHUSD",
+		"max": 1200,
+		"min": 1150
+	}, {
 		"name": "Ripple",
 		"gdax-key": "XRP",
 		"kraken-key": "XXRPZUSD",
