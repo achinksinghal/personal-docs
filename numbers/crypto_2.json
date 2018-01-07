@@ -1,27 +1,27 @@
 {
 	"inputs": [{
 		"name": "Bitcoin Cash",
-		"gdaxKey": "BCH",
+		"gdax-key": "BCH",
 		"max": 2750,
 		"min": 2300
 	}, {
 		"name": "Bitcoin",
-		"gdaxKey": "BTC",
+		"gdax-key": "BTC",
 		"max": 18000,
 		"min": 14000
 	}, {
 		"name": "Ethereum",
-		"gdaxKey": "ETH",
+		"gdax-key": "ETH",
 		"max": 1100,
 		"min": 930
 	}, {
 		"name": "Litecoin",
-		"gdaxKey": "LTC",
+		"gdax-key": "LTC",
 		"max": 300,
 		"min": 230
 	}, {
 		"name": "Ripple",
-		"gdaxKey": "XRP",
+		"gdax-key": "XRP",
 		"max": 3,
 		"min": 2.5
 	}]
