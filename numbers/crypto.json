@@ -2,26 +2,31 @@
 	"inputs": [{
 		"name": "Bitcoin Cash",
 		"gdax-key": "BCH",
+		"kraken-key": "BCHUSD",
 		"max": 2750,
 		"min": 2300
 	}, {
 		"name": "Bitcoin",
 		"gdax-key": "BTC",
+		"kraken-key": "XXBTZUSD",
 		"max": 18000,
 		"min": 14000
 	}, {
 		"name": "Ethereum",
 		"gdax-key": "ETH",
+		"kraken-key": "XETHZUSD",
 		"max": 1100,
 		"min": 930
 	}, {
 		"name": "Litecoin",
 		"gdax-key": "LTC",
+		"kraken-key": "XLTCZUSD",
 		"max": 300,
 		"min": 230
 	}, {
 		"name": "Ripple",
 		"gdax-key": "XRP",
+		"kraken-key": "XXRPZUSD",
 		"max": 3,
 		"min": 2.5
 	}]
