@@ -26,7 +26,6 @@
 	}, {
 		"name": "Ripple",
 		"gdax-key": "XRP",
-		"kraken-key": "XXRPZUSD",
 		"max": 3,
 		"min": 2.5
 	}]
