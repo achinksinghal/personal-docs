@@ -1,4 +1,6 @@
 <?php 
+// run the script like root$ for j in {1..1000000}; do php crypto.php; sleep 60; done;
+
 require __DIR__ . '/vendor/autoload.php';
 use Twilio\Rest\Client;
 
@@ -20,27 +22,38 @@ $input = curl_file_get_contents("https://raw.githubusercontent.com/achinksinghal
 if ($input != FALSE) {
 	$inputJson = json_decode($input);
 	foreach ($inputJson->{"inputs"} as $val) {
-		$max = intval($val->{"max"});
-		$min = intval($val->{"min"});
+		$max = floatval($val->{"max"});
+		$min = floatval($val->{"min"});
 		$name = $val->{"name"};
-		$key = $val->{"key"};
+		$gdaxKey = $val->{"gdax-key"};
+		$krakenKey = isset($val->{"kraken-key"}) ? $val->{"kraken-key"} : FALSE;
                 $coinBaseRate = 0;
 
 		echo "checking ".$name."=<".$min.",".$max.">\n";
-		if ($coinbaseJson != FALSE && isset($coinbaseJson->{"data"}->{"rates"}->{$key})) {
-			$coinBaseRate = intval(intval($coinbaseJson->{"data"}->{"rates"}->{"USD"}) / intval($coinbaseJson->{"data"}->{"rates"}->{$key}));
+		if ($coinbaseJson != FALSE && isset($coinbaseJson->{"data"}->{"rates"}->{$gdaxKey})) {
+			$coinBaseRate = floatval(floatval($coinbaseJson->{"data"}->{"rates"}->{"USD"}) / floatval($coinbaseJson->{"data"}->{"rates"}->{$gdaxKey}));
 			echo "coinbase->".$coinBaseRate."\n";
 		}
 
-		$url = "https://api.gdax.com/products/$key-USD/ticker";
+		$url = "https://api.gdax.com/products/$gdaxKey-USD/ticker";
 		$data = curl_file_get_contents($url);
                 $rate = 0;
 		if ($data != FALSE) {
 			$json = json_decode($data);
                         if (isset($json->{"price"})) {
-				$rate = intval($json->{"price"});
+				$rate = floatval($json->{"price"});
 				echo "gdax->".$rate."\n";
-                        }
+			} else if ($krakenKey != FALSE) {
+				$url = "https://api.kraken.com/0/public/Ticker?pair=$krakenKey";
+				$data = curl_file_get_contents($url);
+				if ($data != FALSE) {
+					$json = json_decode($data);
+					if (isset($json->{"result"}) && isset($json->{"result"}->{"$krakenKey"}->{"c"})) {
+						$rate = floatval($json->{"result"}->{"$krakenKey"}->{"c"}[0]);
+						echo "kraken->".$rate."\n";
+					}
+				}
+			}
 
 			if ($rate == 0 && $coinBaseRate != 0) {
 				$rate = $coinBaseRate;
