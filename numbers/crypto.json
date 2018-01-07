@@ -20,7 +20,7 @@
 	}, {
 		"name": "Litecoin",
 		"gdax-key": "LTC",
-		"kraken-key": "LTCUSD",
+		"kraken-key": "XLTCZUSD",
 		"max": 300,
 		"min": 250
 	}, {
