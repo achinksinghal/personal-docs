@@ -27,7 +27,7 @@
 		"name": "Dash",
 		"gdax-key": "DASH",
 		"kraken-key": "DASHUSD",
-		"max": 1500,
+		"max": 1145,
 		"min": 1120
 	}, {
 		"name": "Ripple",
