@@ -22,7 +22,7 @@
 		"gdax-key": "LTC",
 		"kraken-key": "XLTCZUSD",
 		"max": 300,
-		"min": 250
+		"min": 240
 	}, {
 		"name": "Dash",
 		"gdax-key": "DASH",
