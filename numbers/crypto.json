@@ -11,7 +11,7 @@
 		"gdax-key": "BTC",
 		"kraken-key": "XXBTZUSD",
 		"max": 18000,
-		"min": 13500,
+		"min": 14000,
 		"rate": [15000, 14450]
 	}, {
 		"name": "Ethereum",
@@ -24,7 +24,7 @@
 		"gdax-key": "LTC",
 		"kraken-key": "XLTCZUSD",
 		"max": 300,
-		"min": 225,
+		"min": 235,
 		"rate": [245, 235]
 	}, {
 		"name": "Dash",
