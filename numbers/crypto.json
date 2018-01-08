@@ -4,7 +4,7 @@
 		"gdax-key": "BCH",
 		"kraken-key": "BCHUSD",
 		"max": 2600,
-		"min": 2450
+		"min": 2400
 	}, {
 		"name": "Bitcoin",
 		"gdax-key": "BTC",
