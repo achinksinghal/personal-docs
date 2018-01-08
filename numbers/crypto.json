@@ -15,7 +15,7 @@
 		"name": "Ethereum",
 		"gdax-key": "ETH",
 		"kraken-key": "XETHZUSD",
-		"max": 1200,
+		"max": 1400,
 		"min": 1000
 	}, {
 		"name": "Litecoin",
