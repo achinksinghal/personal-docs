@@ -10,7 +10,7 @@
 		"gdax-key": "BTC",
 		"kraken-key": "XXBTZUSD",
 		"max": 18000,
-		"min": 15000
+		"min": 14450
 	}, {
 		"name": "Ethereum",
 		"gdax-key": "ETH",
