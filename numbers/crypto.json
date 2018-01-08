@@ -3,7 +3,7 @@
 		"name": "Bitcoin Cash",
 		"gdax-key": "BCH",
 		"kraken-key": "BCHUSD",
-		"max": 2600,
+		"max": 2575,
 		"min": 2400
 	}, {
 		"name": "Bitcoin",
@@ -34,6 +34,6 @@
 		"gdax-key": "XRP",
 		"kraken-key": "XXRPZUSD",
 		"max": 4.00,
-		"min": 2.60
+		"min": 2.50
 	}]
 }
