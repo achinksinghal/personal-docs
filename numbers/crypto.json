@@ -14,8 +14,8 @@
 		"kraken-key": "XXBTZUSD",
 		"max": 18000,
 		"min": 14000,
-		"rate": [14600, 14450],
-		"sell" : [15000],
+		"rate": [14450, 14300],
+		"sell" : [14600],
 		"buy" : [14000, 13500]
 	}, {
 		"name": "Ethereum",
