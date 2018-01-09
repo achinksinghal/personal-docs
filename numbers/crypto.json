@@ -28,9 +28,9 @@
 		"buy" : [1000, 950]
 	}, {
 		"name": "Litecoin",
-		"gdax-key": "LTC",
+		"gdax-key": "LTCD",
 		"kraken-key": "XLTCZUSD",
-		"max": 300,
+		"max": 255,
 		"min": 235,
 		"rate": [245, 240, 235],
 		"sell" : [],
