@@ -5,42 +5,56 @@
 		"kraken-key": "BCHUSD",
 		"max": 2500,
 		"min": 2300,
-		"rate": [2500, 2350, 2350]
+		"rate": [2350, 2350],
+		"sell" : [2500, 2600],
+		"buy" : [2200]
 	}, {
 		"name": "Bitcoin",
 		"gdax-key": "BTC",
 		"kraken-key": "XXBTZUSD",
 		"max": 15000,
 		"min": 14000,
-		"rate": [14600, 14450]
+		"rate": [14600, 14450],
+		"sell" : [15000],
+		"buy" : [14000, 13500]
 	}, {
 		"name": "Ethereum",
 		"gdax-key": "ETH",
 		"kraken-key": "XETHZUSD",
 		"max": 1400,
 		"min": 1000,
-		"rate": []
+		"rate": [],
+		"sell" : [],
+		"buy" : [1000, 950]
 	}, {
 		"name": "Litecoin",
 		"gdax-key": "LTC",
 		"kraken-key": "XLTCZUSD",
 		"max": 300,
 		"min": 235,
-		"rate": [245, 240, 235]
+		"rate": [245, 240, 235],
+		"sell" : [],
+		"buy" : [235]
 	}, {
 		"name": "Dash",
 		"gdax-key": "DASH",
 		"kraken-key": "DASHUSD",
 		"max": 1150,
-		"min": 950
+		"min": 950,
+		"rate": [],
+		"sell" : [],
+		"buy" : []
 	}, {
 		"name": "Ripple",
 		"gdax-key": "XRP",
 		"kraken-key": "XXRPZUSD",
 		"max": 2.72,
 		"min": 2,
-		"rate" : [2.75, 2.72018, 2.62007, 2.35, 2.3, 2.2],
-		"total" : [2750, 1001.0274, 2620.07, 2350, 2300, 990]
+		"rate" : [2.35, 2.3, 2.2],
+		"total" : [2350, 2300, 990],
+		"sell" : [2.75, 2.72018, 2.62007],
+		"sell-total" : [2750, 1001.0274, 2620.07],
+		"buy" : []
 	}],
 	"coinbaseCurrencies" : ["AED", "AFN", "ALL", "AMD", "ANG", "AOA", "ARS", "AUD", "AWG", "AZN", "BAM", "BBD", "BCH", "BDT", "BGN", "BHD", "BIF", "BMD", "BND", "BOB", "BRL", "BSD", "BTC", "BTN", "BWP", "BYN", "BYR", "BZD", "CAD", "CDF", "CHF", "CLF", "CLP", "CNY", "COP", "CRC", "CUC", "CVE", "CZK", "DJF", "DKK", "DOP", "DZD", "EEK", "EGP", "ERN", "ETB", "ETH", "EUR", "FJD", "FKP", "GBP", "GEL", "GGP", "GHS", "GIP", "GMD", "GNF", "GTQ", "GYD", "HKD", "HNL", "HRK", "HTG", "HUF", "IDR", "ILS", "IMP", "INR", "IQD", "ISK", "JEP", "JMD", "JOD", "JPY", "KES", "KGS", "KHR", "KMF", "KRW", "KWD", "KYD", "KZT", "LAK", "LBP", "LKR", "LRD", "LSL", "LTC", "LTL", "LVL", "LYD", "MAD", "MDL", "MGA", "MKD", "MMK", "MNT", "MOP", "MRO", "MTL", "MUR", "MVR", "MWK", "MXN", "MYR", "MZN", "NAD", "NGN", "NIO", "NOK", "NPR", "NZD", "OMR", "PAB", "PEN", "PGK", "PHP", "PKR", "PLN", "PYG", "QAR", "RON", "RSD", "RUB", "RWF", "SAR", "SBD", "SCR", "SEK", "SGD", "SHP", "SLL", "SOS", "SRD", "SSP", "STD", "SVC", "SZL", "THB", "TJS", "TMT", "TND", "TOP", "TRY", "TTD", "TWD", "TZS", "UAH", "UGX", "USD", "UYU", "UZS", "VEF", "VND", "VUV", "WST", "XAF", "XAG", "XAU", "XCD", "XDR", "XOF", "XPD", "XPF", "XPT", "YER", "ZAR", "ZMK", "ZMW", "ZWL"]
 }
