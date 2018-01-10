@@ -8,10 +8,10 @@
 		"rate": [2350, 2350],
 		"sell" : [],
 		"buy" : [],
-		"sold" : [1],
-		"sold-total" : [2850],
-		"sold-in-line" : [1, 0.5],
-		"sold-in-line-total" : [2900, 3000]
+		"sold" : [1, 1],
+		"sold-total" : [2850, 2900],
+		"sold-in-line" : [1, 0.5, 0.5],
+		"sold-in-line-total" : [2900, 2950, 3000]
 	}, {
 		"name": "Bitcoin",
 		"gdax-key": "BTC",
