@@ -13,7 +13,7 @@
 		"gdax-key": "BTC",
 		"kraken-key": "XXBTZUSD",
 		"max": 14600,
-		"min": 14000,
+		"min": 13500,
 		"rate": [14450, 14300, 14000],
 		"sell" : [14600],
 		"buy" : [13500]
