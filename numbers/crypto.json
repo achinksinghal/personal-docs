@@ -3,7 +3,7 @@
 		"name": "Bitcoin Cash",
 		"gdax-key": "BCH",
 		"kraken-key": "BCHUSD",
-		"max": 2600,
+		"max": 2650,
 		"min": 2300,
 		"rate": [2350, 2350],
 		"sell" : [2600],
