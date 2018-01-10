@@ -1,9 +1,9 @@
 {
 	"inputs": [{
 		"name": "Bitcoin Cash",
-		"gdax-key": "BCH",
+		"gdax-key": "BCH-STOP",
 		"kraken-key": "BCHUSD",
-		"max": 2500,
+		"max": 2501,
 		"min": 2300,
 		"rate": [2350, 2350],
 		"sell" : [2500, 2600],
