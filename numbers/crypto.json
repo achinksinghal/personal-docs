@@ -1,7 +1,7 @@
 {
 	"inputs": [{
 		"name": "Bitcoin Cash",
-		"gdax-key": "BCH",
+		"gdax-key": "BCH-STOP",
 		"kraken-key": "BCHUSD",
 		"max": 2650,
 		"min": 2300,
