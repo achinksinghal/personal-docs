@@ -7,7 +7,7 @@
 		"min": 2300,
 		"rate": [2350, 2350],
 		"sell" : [2500, 2600],
-		"buy" : [2200]
+		"buy" : [2300]
 	}, {
 		"name": "Bitcoin",
 		"gdax-key": "BTC",
@@ -30,10 +30,10 @@
 		"name": "Litecoin",
 		"gdax-key": "LTCD",
 		"kraken-key": "XLTCZUSD",
-		"max": 248,
+		"max": 246,
 		"min": 235,
 		"rate": [245, 240, 235],
-		"sell" : [248, 255],
+		"sell" : [245, 256],
 		"buy" : [235]
 	}, {
 		"name": "Dash",
