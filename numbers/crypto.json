@@ -36,10 +36,10 @@
 		"gdax-key": "LTC",
 		"kraken-key": "XLTCZUSD",
 		"max": 256,
-		"min": 235,
+		"min": 232,
 		"rate": [240, 239, 235, 235],
-		"sell" : [256],
-		"buy" : [232, 235]
+		"sell" : [256, 239],
+		"buy" : [232]
 	}, {
 		"name": "Dash",
 		"gdax-key": "DASH",
