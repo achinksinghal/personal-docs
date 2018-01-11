@@ -3,7 +3,7 @@
 		"name": "Bitcoin Cash",
 		"gdax-key": "BCH",
 		"kraken-key": "BCHUSD",
-		"max": 3050,
+		"max": 2951,
 		"min": 2300,
 		"rate": [2350, 2350],
 		"sell" : [],
@@ -11,8 +11,8 @@
 		"total" : 4.25673300,
 		"sold" : [1, 2],
 		"sold-total" : [2850, 2900],
-		"sold-in-line" : [1],
-		"sold-in-line-total" : [3000]
+		"sold-in-line" : [1.25673300],
+		"sold-in-line-total" : [2950]
 	}, {
 		"name": "Bitcoin",
 		"gdax-key": "BTC",
