@@ -8,6 +8,7 @@
 		"rate": [2350, 2350],
 		"sell" : [],
 		"buy" : [],
+		"total" : 4.25673300,
 		"sold" : [1, 2],
 		"sold-total" : [2850, 2900],
 		"sold-in-line" : [1],
