@@ -7,6 +7,10 @@ $input = curl_file_get_contents("https://raw.githubusercontent.com/achinksinghal
 if ($input != FALSE) {
 	$inputJson = json_decode($input);
         $currencies = array();
+
+	if (isset($inputJson->{"enabled"}) && $inputJson->{"enabled"} == false) {
+                exit(0);
+        }
 	foreach ($inputJson->{"coinbase-currencies"} as $c1) {
 		$currencies[$c1] = $c1;
 	}
