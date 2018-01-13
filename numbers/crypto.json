@@ -1,4 +1,5 @@
 {
+	"enabled" : true,
 	"inputs": [{
 		"name": "Bitcoin Cash",
 		"gdax-key": "BCH",
