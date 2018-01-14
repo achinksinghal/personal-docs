@@ -36,7 +36,7 @@
 		"name": "Litecoin",
 		"gdax-key": "LTC",
 		"kraken-key": "XLTCZUSD",
-		"max": 239,
+		"max": 245,
 		"min": 222.99,
 		"rate": [240, 239, 235, 235, 235, 232],
 		"sell" : [256],
