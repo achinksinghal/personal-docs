@@ -46,7 +46,7 @@
 		"gdax-key": "DASH",
 		"kraken-key": "DASHUSD",
 		"max": 1150,
-		"min": 750,
+		"min": 600,
 		"rate": [],
 		"sell" : [],
 		"buy" : []
