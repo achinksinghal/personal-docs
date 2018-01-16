@@ -28,10 +28,10 @@
 		"gdax-key": "ETH",
 		"kraken-key": "XETHZUSD",
 		"max": 1500,
-		"min": 800,
+		"min": 1205,
 		"rate": [],
 		"sell" : [],
-		"buy" : []
+		"buy" : [1205]
 	}, {
 		"name": "Litecoin",
 		"gdax-key": "LTC",
