@@ -28,7 +28,7 @@
 		"gdax-key": "ETH",
 		"kraken-key": "XETHZUSD",
 		"max": 1400,
-		"min": 1150,
+		"min": 1000,
 		"rate": [],
 		"sell" : [],
 		"buy" : [1205]
