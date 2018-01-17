@@ -1,15 +1,15 @@
 {
-	"enabled" : false,
+	"enabled" : true,
 	"inputs": [{
 		"name": "Bitcoin Cash",
 		"gdax-key": "BCH",
 		"kraken-key": "BCHUSD",
-		"max": 2951,
+		"max": 1800,
 		"min": 1200,
-		"rate": [2350, 2350],
+		"rate": [2350],
 		"sell" : [],
 		"buy" : [],
-		"total" : 4.25673300,
+		"total" : 1.25673300,
 		"sold" : [1, 2],
 		"sold-total" : [2850, 2900],
 		"sold-in-line" : [1.25673300],
@@ -18,18 +18,18 @@
 		"name": "Bitcoin",
 		"gdax-key": "BTC",
 		"kraken-key": "XXBTZUSD",
-		"max": 12000,
-		"min": 8000,
-		"rate": [13900, 13500, 13500, 13300, 13300, 13300, 13300],
+		"max": 11200,
+		"min": 7000,
+		"rate": [13430],
 		"sell" : [14000, 14000, 14000, 14450, 14600],
 		"buy" : []
 	}, {
 		"name": "Ethereum",
 		"gdax-key": "ETH",
 		"kraken-key": "XETHZUSD",
-		"max": 1205,
-		"min": 700,
-		"rate": [],
+		"max": 1000,
+		"min": 600,
+		"rate": [1205],
 		"sell" : [],
 		"buy" : [1205]
 	}, {
@@ -38,7 +38,7 @@
 		"kraken-key": "XLTCZUSD",
 		"max": 200,
 		"min": 130,
-		"rate": [240, 239, 235, 235, 235, 232],
+		"rate": [236],
 		"sell" : [],
 		"buy" : []
 	}, {
@@ -54,7 +54,7 @@
 		"name": "Ripple",
 		"gdax-key": "XRP",
 		"kraken-key": "XXRPZUSD",
-		"max": 2.2,
+		"max": 1.4,
 		"min": 0.8,
 		"rate" : [1.6, 1.7, 1.8, 1.85, 1.88, 1.9, 2],
 		"total" : [500, 1000, 2000, 1000, 500, 1000, 500],
