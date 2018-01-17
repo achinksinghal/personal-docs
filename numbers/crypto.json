@@ -18,8 +18,8 @@
 		"name": "Bitcoin",
 		"gdax-key": "BTC",
 		"kraken-key": "XXBTZUSD",
-		"max": 13431,
-		"min": 10000,
+		"max": 12000,
+		"min": 8000,
 		"rate": [13900, 13500, 13500, 13300, 13300, 13300, 13300],
 		"sell" : [14000, 14000, 14000, 14450, 14600],
 		"buy" : []
@@ -36,8 +36,8 @@
 		"name": "Litecoin",
 		"gdax-key": "LTC",
 		"kraken-key": "XLTCZUSD",
-		"max": 236,
-		"min": 150,
+		"max": 200,
+		"min": 140,
 		"rate": [240, 239, 235, 235, 235, 232],
 		"sell" : [],
 		"buy" : []
