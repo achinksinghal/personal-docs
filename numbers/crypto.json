@@ -20,9 +20,9 @@
 		"kraken-key": "XXBTZUSD",
 		"max": 11200,
 		"min": 7000,
-		"rate": [13442.5],
-		"sell" : [14000, 14000, 14000, 14450, 14600],
-		"buy" : []
+		"rate": [13750],
+		"total" : [4.3636439],
+		"sold" : [[0.5, 10750]]
 	}, {
 		"name": "Ethereum",
 		"gdax-key": "ETH",
@@ -30,7 +30,8 @@
 		"max": 1000,
 		"min": 600,
 		"rate": [1205],
-		"sell" : [],
+		"total": [4],
+		"sold" : [],
 		"buy" : [1205]
 	}, {
 		"name": "Litecoin",
@@ -39,17 +40,14 @@
 		"max": 200,
 		"min": 130,
 		"rate": [236],
-		"sell" : [],
-		"buy" : []
+		"total" : [127.1353468],
+		"sold" : []
 	}, {
 		"name": "Dash",
 		"gdax-key": "DASH",
 		"kraken-key": "DASHUSD",
 		"max": 1150,
-		"min": 600,
-		"rate": [],
-		"sell" : [],
-		"buy" : []
+		"min": 600
 	}, {
 		"name": "Ripple",
 		"gdax-key": "XRP",
