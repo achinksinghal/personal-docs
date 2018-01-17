@@ -5,7 +5,7 @@
 		"gdax-key": "BCH",
 		"kraken-key": "BCHUSD",
 		"max": 2951,
-		"min": 1400,
+		"min": 1200,
 		"rate": [2350, 2350],
 		"sell" : [],
 		"buy" : [],
