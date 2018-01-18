@@ -1,6 +1,7 @@
 {
 	"enabled" : false,
 	"inputs": [{
+		"enabled" : false,
 		"name": "Bitcoin Cash",
 		"gdax-key": "BCH",
 		"kraken-key": "BCHUSD",
@@ -10,16 +11,13 @@
 		"sell" : [],
 		"buy" : [],
 		"total" : 1.25673300,
-		"sold" : [1, 2],
-		"sold-total" : [2850, 2900],
-		"sold-in-line" : [1.25673300],
-		"sold-in-line-total" : [2950]
+		"profit-total" : [1600]
 	}, {
 		"name": "Bitcoin",
 		"gdax-key": "BTC",
 		"kraken-key": "XXBTZUSD",
-		"max": 11200,
-		"min": 7000,
+		"max": 11500,
+		"min": 8198,
 		"rate": [13750],
 		"total" : [4.3636439],
 		"sold" : [[0.5, 10750]]
@@ -27,8 +25,8 @@
 		"name": "Ethereum",
 		"gdax-key": "ETH",
 		"kraken-key": "XETHZUSD",
-		"max": 1000,
-		"min": 600,
+		"max": 1100,
+		"min": 732.5,
 		"rate": [1205],
 		"total": [4],
 		"sold" : [],
@@ -37,12 +35,13 @@
 		"name": "Litecoin",
 		"gdax-key": "LTC",
 		"kraken-key": "XLTCZUSD",
-		"max": 200,
-		"min": 130,
+		"max": 220,
+		"min": 147.66,
 		"rate": [236],
 		"total" : [127.1353468],
 		"sold" : []
 	}, {
+		"enabled" : false,
 		"name": "Dash",
 		"gdax-key": "DASH",
 		"kraken-key": "DASHUSD",
@@ -53,7 +52,7 @@
 		"gdax-key": "XRP",
 		"kraken-key": "XXRPZUSD",
 		"max": 1.4,
-		"min": 0.8,
+		"min": 0.7611,
 		"rate" : [1.8139],
 		"total" : [6500],
 		"sell" : [2.75, 2.35, 2.72018, 2.62007, 2.2, 2.3],
