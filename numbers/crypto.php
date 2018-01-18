@@ -50,6 +50,9 @@ if ($input != FALSE) {
 
 
 	foreach ($inputJson->{"inputs"} as $val) {
+                if (isset($val->{"enabled"}) && $val->{"enabled"} == false) {
+                        continue;
+                }
 		$max = floatval($val->{"max"});
 		$min = floatval($val->{"min"});
 		$name = $val->{"name"};
