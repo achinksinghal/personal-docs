@@ -55,7 +55,7 @@
 		"name": "Ripple",
 		"gdax-key": "XRP",
 		"kraken-key": "XXRPZUSD",
-		"max": 1.6,
+		"max": 1.7,
 		"min": 0.9,
 		"rate" : [1.8139],
 		"total" : [6500],
