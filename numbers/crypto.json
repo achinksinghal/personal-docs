@@ -1,5 +1,5 @@
 {
-	"enabled" : false,
+	"enabled" : true,
 	"inputs": [{
 		"enabled" : false,
 		"name": "Bitcoin Cash",
@@ -17,8 +17,8 @@
 		"name": "Bitcoin",
 		"gdax-key": "BTC",
 		"kraken-key": "XXBTZUSD",
-		"max": 12000,
-		"min": 9400,
+		"max": 13000,
+		"min": 11299,
 		"rate": [13750],
 		"total" : [4.3636439],
 		"sold" : []
@@ -28,7 +28,7 @@
 		"gdax-key": "ETH",
 		"kraken-key": "XETHZUSD",
 		"max": 1400,
-		"min": 900,
+		"min": 1035,
 		"rate": [1205],
 		"total": [4],
 		"sold" : [],
