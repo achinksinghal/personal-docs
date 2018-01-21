@@ -3,18 +3,32 @@
 echo "\n\n".`date`;
 
 $sms_body = "";
+$lastReportTimeFileName = "last_report_time";
 $input = curl_file_get_contents("https://raw.githubusercontent.com/achinksinghal/personal-docs/master/numbers/crypto.json?rand=".time());
 if ($input != FALSE) {
 	$inputJson = json_decode($input);
         $currencies = array();
 
 	if (isset($inputJson->{"enabled"}) && $inputJson->{"enabled"} == false) {
-                exit(0);
-        }
+		exit(0);
+	}
 	foreach ($inputJson->{"coinbase-currencies"} as $c1) {
 		$currencies[$c1] = $c1;
 	}
 
+	$isReportEnabled = $inputJson->{"report"}->{"enabled"};
+	if ($isReportEnabled) {
+                $lastTimeReportTime = file_get_contents($lastReportTimeFileName);
+		if ($lastTimeReportTime === FALSE) {
+			$lastTimeReportTime = 0;
+		} else {
+			$lastTimeReportTime = intval($lastTimeReportTime);
+		}
+		$timeNextReport = $lastTimeReportTime + ($inputJson->{"report"}->{"frequency-in-mins"} * 60);
+                if ($timeNextReport > time()) {
+   			$isReportEnabled = false;
+		}
+	}
 	$url = "https://api.coinbase.com/v2/currencies?ran=".time();
 	$data = curl_file_get_contents($url);
 	if ($data != FALSE) {
@@ -50,9 +64,9 @@ if ($input != FALSE) {
 
 
 	foreach ($inputJson->{"inputs"} as $val) {
-                if (isset($val->{"enabled"}) && $val->{"enabled"} == false) {
-                        continue;
-                }
+		if (isset($val->{"enabled"}) && $val->{"enabled"} == false) {
+			continue;
+		}
 		$max = floatval($val->{"max"});
 		$min = floatval($val->{"min"});
 		$name = $val->{"name"};
@@ -90,6 +104,11 @@ if ($input != FALSE) {
 				echo "\tcoinbase->".$coinBaseRate."\n";
 			}
 
+			if ($isReportEnabled) {
+				$sms_body = $sms_body.$gdaxKey."=".$rate.",";
+				continue;
+			}
+
 			if ($rate > 0 && $rate <= $min) {
 				$sms_body = $sms_body.$name." Drop ".$rate.",";
 			}
@@ -100,6 +119,9 @@ if ($input != FALSE) {
 	}
 }
 
+if ($isReportEnabled) {
+	file_put_contents($lastReportTimeFileName, "".time());
+}
 
 if ($sms_body != "") {
 	echo $sms_body."\n";
