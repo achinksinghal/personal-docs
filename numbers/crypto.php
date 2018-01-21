@@ -130,8 +130,8 @@ if ($sms_body != "") {
 
 function send_sms($body ) {
 	$data = array (
-			'From' => "+14243532161",
-			'To' => "+12135092030",
+			'From' => "+1{10-Digit-Twilio-Given-Number}",
+			'To' => "+1{10-Digit-PhoneNumber-To-Send-Message}",
 			'Body' => $body,
 		      );
 	$post = http_build_query($data);
