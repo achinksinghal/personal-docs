@@ -18,7 +18,7 @@
 		"gdax-key": "BTC",
 		"kraken-key": "XXBTZUSD",
 		"max": 12000,
-		"min": 11000,
+		"min": 10000,
 		"rate": [13750],
 		"total" : [4.3636439],
 		"sold" : []
@@ -28,7 +28,7 @@
 		"gdax-key": "ETH",
 		"kraken-key": "XETHZUSD",
 		"max": 1400,
-		"min": 1000,
+		"min": 900,
 		"rate": [1205],
 		"total": [4],
 		"sold" : [],
@@ -39,7 +39,7 @@
 		"gdax-key": "LTC",
 		"kraken-key": "XLTCZUSD",
 		"max": 200,
-		"min": 180,
+		"min": 170,
 		"rate": [236],
 		"total" : [127.1353468],
 		"sold" : []
