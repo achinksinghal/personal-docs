@@ -27,7 +27,7 @@
 		"name": "Ethereum",
 		"gdax-key": "ETH",
 		"kraken-key": "XETHZUSD",
-		"max": 1400,
+		"max": 1200,
 		"min": 900,
 		"rate": [1205],
 		"total": [4],
