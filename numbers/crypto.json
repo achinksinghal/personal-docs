@@ -1,5 +1,5 @@
 {
-	"enabled" : false,
+	"enabled" : true,
 	"inputs": [{
 		"enabled" : false,
 		"name": "Bitcoin Cash",
@@ -13,7 +13,7 @@
 		"total" : 1.25673300,
 		"profit-total" : [1600]
 	}, {
-		"enabled" : true,
+		"enabled" : false,
 		"name": "Bitcoin",
 		"gdax-key": "BTC",
 		"kraken-key": "XXBTZUSD",
@@ -23,7 +23,7 @@
 		"total" : [4.3636439],
 		"sold" : []
 	}, {
-		"enabled" : true,
+		"enabled" : false,
 		"name": "Ethereum",
 		"gdax-key": "ETH",
 		"kraken-key": "XETHZUSD",
@@ -38,7 +38,7 @@
 		"name": "Litecoin",
 		"gdax-key": "LTC",
 		"kraken-key": "XLTCZUSD",
-		"max": 205,
+		"max": 235,
 		"min": 135,
 		"rate": [236],
 		"total" : [127.1353468],
@@ -51,7 +51,7 @@
 		"max": 1150,
 		"min": 600
 	}, {
-		"enabled" : true,
+		"enabled" : false,
 		"name": "Ripple",
 		"gdax-key": "XRP",
 		"kraken-key": "XXRPZUSD",
