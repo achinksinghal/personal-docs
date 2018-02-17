@@ -23,12 +23,12 @@
 		"total" : [4.3636439],
 		"sold" : []
 	}, {
-		"enabled" : false,
+		"enabled" : true,
 		"name": "Ethereum",
 		"gdax-key": "ETH",
 		"kraken-key": "XETHZUSD",
 		"max": 1200,
-		"min": 900,
+		"min": 910,
 		"rate": [1205],
 		"total": [4],
 		"sold" : [],
