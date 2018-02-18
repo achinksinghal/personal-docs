@@ -13,12 +13,12 @@
 		"total" : 1.25673300,
 		"profit-total" : [1600]
 	}, {
-		"enabled" : false,
+		"enabled" : true,
 		"name": "Bitcoin",
 		"gdax-key": "BTC",
 		"kraken-key": "XXBTZUSD",
-		"max": 11000,
-		"min": 9000,
+		"max": 12500,
+		"min": 10500,
 		"rate": [13750],
 		"total" : [4.3636439],
 		"sold" : []
@@ -28,7 +28,7 @@
 		"gdax-key": "ETH",
 		"kraken-key": "XETHZUSD",
 		"max": 1200,
-		"min": 910,
+		"min": 925,
 		"rate": [1205],
 		"total": [4],
 		"sold" : [],
@@ -39,7 +39,7 @@
 		"gdax-key": "LTC",
 		"kraken-key": "XLTCZUSD",
 		"max": 235,
-		"min": 210,
+		"min": 215,
 		"rate": [236],
 		"total" : [127.1353468],
 		"sold" : []
