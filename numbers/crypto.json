@@ -39,7 +39,7 @@
 		"gdax-key": "LTC",
 		"kraken-key": "XLTCZUSD",
 		"max": 235,
-		"min": 215,
+		"min": 210,
 		"rate": [236],
 		"total" : [127.1353468],
 		"sold" : []
