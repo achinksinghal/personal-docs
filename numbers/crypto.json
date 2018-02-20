@@ -1,5 +1,5 @@
 {
-	"enabled" : false,
+	"enabled" : true,
 	"inputs": [{
 		"enabled" : false,
 		"name": "Bitcoin Cash",
@@ -38,7 +38,7 @@
 		"name": "Litecoin",
 		"gdax-key": "LTC",
 		"kraken-key": "XLTCZUSD",
-		"max": 235,
+		"max": 250,
 		"min": 210,
 		"rate": [236],
 		"total" : [127.1353468],
